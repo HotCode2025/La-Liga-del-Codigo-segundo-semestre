@@ -9,7 +9,6 @@ public class EjercicioWhile01 {
         while(conteo < 3 ){
             System.out.println("conteo = " + conteo);
             conteo++; //Vamos aumentando en uno la variable
-           
         }
         
         //Ciclo do While sintaxis
