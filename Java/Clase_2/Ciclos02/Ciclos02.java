@@ -1,9 +1,9 @@
 /*
 Ejercicio 2: Leer un número e indicar si es positivo o
 negativo. El proceso se repetira hasta que se introduzca
-un cero
+un cero.
 Hacer este ejercicio con la clase Scanner
-luego hacerlo nuevamente con la clase JOptionPane
+luego hacerlo nuevamente con la clase JOptionPane.
 */
 package Ciclos02;
 import javax.swing.JOptionPane;
