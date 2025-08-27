@@ -10,10 +10,10 @@ print ("Jupiter" in planetas)
 planetas.add("Tierra") #add es una funcion
 print(planetas)
 
-#Eliminar elementos, puede arrojar si el elemeto no existe
+#Eliminar elementos, puede arrojar error si el elemento no existe
 planetas.remove("Jupiter")
 print(planetas)
-planetas.discard("Tierra")
+planetas.discard("Tierra") #No da error, pero tampoco lo descarta si se ingresa mal el elemento
 print(planetas)
 
 #Limpiar set o conjunto
@@ -22,4 +22,4 @@ print(planetas)
 
 #Eliminar set o conjunto
 del planetas
-print(planetas)
+#print(planetas) #Nos va a dar error

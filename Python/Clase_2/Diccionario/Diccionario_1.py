@@ -34,7 +34,7 @@ for termino, valor in diccionario.item():
 for termino in diccionario.keys():
     print(termino) #Muestra una sola llave
 
-for valor in diccionario.values(): #Usamos una fucion para acceder a un valor
+for valor in diccionario.values(): #Usamos una funcion para acceder a un valor
     print(valor)
 
 #Comprobar la existencia de algun elemento
@@ -43,6 +43,9 @@ print("IDE" in diccionario) #Devuelve un boolean
 #Agregar un elemento
 diccionario["PK"] = "Primer key"
 print(diccionario)
+
+#No es posible agregar llaves duplicadas al diccionario, si se agrega una llave existente sobreescribe
+#con el nuevo valor
 
 #Eliminar un elemento
 diccionario.pop("SABD")
